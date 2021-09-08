@@ -1,8 +1,6 @@
 const router = require("express").Router();
 const { update, updates } = require("./clientApi");
 const totoro = require("totoro-node");
-// const multer = require("multer");
-// const upload = multer({ dest: "uploads/" });
 
 router.use(
   "/api",
